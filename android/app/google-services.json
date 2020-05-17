@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "408681269324",
+    "firebase_url": "https://memetheweb-67f78.firebaseio.com",
+    "project_id": "memetheweb-67f78",
+    "storage_bucket": "memetheweb-67f78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408681269324:android:ce0a1c6b48218f50438ce9",
+        "android_client_info": {
+          "package_name": "com.devsamuelv.memtheweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408681269324-76t16cd35srakg2slgsb7tc6vokr2r2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVQ9B0uqOA1576mDjaoaFbJAhMDHMHQp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408681269324-76t16cd35srakg2slgsb7tc6vokr2r2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408681269324:android:cde69cb63dee16f1438ce9",
+        "android_client_info": {
+          "package_name": "com.example.MemeApplicationFirebaseHackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408681269324-76t16cd35srakg2slgsb7tc6vokr2r2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVQ9B0uqOA1576mDjaoaFbJAhMDHMHQp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408681269324-76t16cd35srakg2slgsb7tc6vokr2r2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
