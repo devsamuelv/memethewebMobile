@@ -74,6 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           Center(
             child: new Image.asset(
+              // This App is made for Flutterthon a Hackathon on PixelogicDev on https://www.twitch.tv/pixelogicdev
               //https://gifimage.net/wp-content/uploads/2017/10/christmas-background-gif-9.gif
               'https://gifimage.net/wp-content/uploads/2017/10/christmas-background-gif-9.gif',
               width: 100,
