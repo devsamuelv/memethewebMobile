@@ -23,7 +23,7 @@ class _MyHomePageState extends StatelessWidget {
         // in the middle of the parent.
         child: Scaffold(
           appBar: AppBar(
-            title: Text("Meme The Web or Visit memetheweb.com"),
+            title: Text("Meme The Web.com"),
             backgroundColor: redColor,
             actions: <Widget>[
               Center(
@@ -36,11 +36,15 @@ class _MyHomePageState extends StatelessWidget {
                       child: Padding (
                         padding: const EdgeInsets.symmetric(horizontal: 5.0),
                         child: RaisedButton(
-                        disabledColor: Colors.transparent,
+                        color: Colors.black,
                         child: Text('Logout', style: TextStyle(color: Colors.white)),
                         onPressed: () {
                           AuthService().SignOut().then((value) {
-                          Navigator.pop(context);
+                          Navigator.pop(context, MaterialPageRoute<void>(
+                            builder: (BuildContext context) {
+                              return HomePage();
+                            },
+                          ));
                           });
                         })
                       )

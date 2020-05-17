@@ -1,4 +1,5 @@
 import 'package:MemeApplicationFirebaseHackathon/backend/Toast.dart';
+import 'package:flutter/cupertino.dart';
 import '../../Home.dart';
 import '../../Toast.dart';
 
@@ -28,21 +29,22 @@ class _SignInState extends State<SignIn> {
       appBar: AppBar(
         backgroundColor: redColor,
         elevation: 0.0,
-        title: Text('Sign in to Meme The Web or Visit memetheweb.com'),
+        title: Text('Sign in to Meme The Web.com'),
       ),
       body: Center(
           child: Column(children: <Widget>[
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 600.0),
+          padding: const EdgeInsets.symmetric(horizontal: 100.0, vertical: 10.0),
           child: TextField(
             decoration: const InputDecoration(
               hintText: 'Enter your email',
             ),
             controller: UsernameController,
+            style: TextStyle(fontWeight: FontWeight.bold),
           ),
         ),
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 600.0),
+          padding: const EdgeInsets.symmetric(horizontal: 100.0, vertical: 10.0),
           child: TextField(
             decoration: const InputDecoration(
               hintText: 'Enter your password',
@@ -71,17 +73,6 @@ class _SignInState extends State<SignIn> {
                 Navigator.push(context, MaterialPageRoute<void>(
                   builder: (BuildContext context) {
                     return HomePage();
-                    // return Scaffold(
-                    //   appBar: AppBar(title: Text('My Page')),
-                    //   body: Center(
-                    //     child: FlatButton(
-                    //       child: Text('POP'),
-                    //       onPressed: () {
-                    //         Navigator.pop(context);
-                    //       },
-                    //     ),
-                    //   ),
-                    // );
                   },
                 ));
 

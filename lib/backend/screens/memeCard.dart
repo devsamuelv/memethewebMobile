@@ -15,7 +15,7 @@ class MemeCard extends StatelessWidget {
     return Container(
       child:
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 500),
+          padding: EdgeInsets.symmetric(horizontal: 50),
             child: Card(
               child: Column(
                 mainAxisSize: MainAxisSize.min,
@@ -30,6 +30,13 @@ class MemeCard extends StatelessWidget {
                     ),
                     ButtonBar(
                       children: <Widget>[
+                        Align(
+                          alignment: Alignment.bottomLeft,
+                          child: Text(
+                            'Posted By ${meme.username}',
+                            style: TextStyle(fontWeight: FontWeight.w600),
+                          ),
+                        ),
                         FlatButton(
                           child: const Text('Like'),
                           color: redColor,
