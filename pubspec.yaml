@@ -24,6 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  #flashbar
+  flushbar: ^1.10.4
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,8 +43,14 @@ dependencies:
   cloud_firestore:
   firebase_storage:
 
+  # provider for auth
+  provider: ^4.1.2
+
   # for hex color support
   hexcolor: ^1.0.2
+
+  # for showing a toast to a user
+  fluttertoast: ^3.1.3 
 
 dev_dependencies:
   flutter_test:

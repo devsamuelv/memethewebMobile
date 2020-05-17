@@ -23,3 +23,6 @@ samples, guidance on mobile development, and a full API reference.
     - [ ] add posting memes
     - [ ] add add user settings
     - [ ] add channels
+
+- Problems
+    - [ ] Fix the Toast Problem
